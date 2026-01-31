@@ -1,16 +1,3 @@
-"""
-gradio_milestone4.py - COMPLETE MILESTONE 4 WITH GRADIO UI
-Meets all internship requirements:
-1. Review and refinement cycle
-2. Revision suggestions and quality evaluation  
-3. Final UI Integration: Polished Gradio interface
-4. UI controls (e.g., 'Critique/Revise' button)
-5. Present all generated sections clearly
-6. User-triggered re-runs of revision cycle
-7. Prepare final report
-8. Final testing
-"""
-
 import sys
 import os
 import json

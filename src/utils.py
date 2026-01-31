@@ -1,7 +1,3 @@
-"""
-utils.py - Utility functions for the Research Paper Reviewer
-"""
-
 import os
 import re
 import json

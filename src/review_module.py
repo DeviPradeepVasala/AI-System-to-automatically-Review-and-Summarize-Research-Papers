@@ -1,8 +1,3 @@
-"""
-review_module.py
-Milestone 4: Review, Refinement, and Final Report Generation
-"""
-
 import json
 import re
 from pathlib import Path

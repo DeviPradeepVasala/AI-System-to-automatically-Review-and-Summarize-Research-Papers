@@ -1,7 +1,3 @@
-"""
-config.py - Complete configuration file for Research Paper Reviewer
-"""
-
 import os
 from pathlib import Path
 from dotenv import load_dotenv

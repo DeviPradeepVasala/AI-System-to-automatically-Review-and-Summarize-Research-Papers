@@ -1,8 +1,3 @@
-"""
-draft_generator.py
-Milestone 3: Generate structured review draft using GPT
-"""
-
 import json
 import os
 import re

@@ -1,9 +1,3 @@
-"""
-paper_analyzer.py - SIMPLIFIED WORKING VERSION
-Milestone 2: Paper Analysis Module
-Analyzes extracted text and identifies key findings
-"""
-
 import json
 import re
 import nltk

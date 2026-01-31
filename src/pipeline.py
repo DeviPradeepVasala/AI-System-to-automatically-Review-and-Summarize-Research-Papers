@@ -1,9 +1,3 @@
-"""
-pipeline.py
-Complete pipeline for Milestones 1-3
-Runs search → extraction → analysis → draft generation in sequence
-"""
-
 import time
 from datetime import datetime
 from pathlib import Path
