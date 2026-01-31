@@ -1,63 +1,69 @@
-### Milestone 1 — Paper Collection & Dataset Preparation (Week 1–2)
+# 📘 AI System to Automatically Review and Summarize Research Papers
+
+An intelligent system designed to automate the process of collecting, organizing, and preparing academic research papers for literature review and analysis.
+
+This project simplifies early-stage research by automatically searching scholarly databases, downloading papers, and generating a structured dataset ready for further AI-based analysis.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Project Overview
 
-The **AI Research Paper Reviewer** is an automated system designed to support systematic literature reviews by simplifying the process of collecting and organizing academic research papers.
+The **AI Research Paper Reviewer** helps researchers, students, and developers reduce manual effort involved in:
 
-This project automates the early research workflow — from topic-based paper search to dataset preparation — enabling faster and more structured review creation.
+- Searching academic papers  
+- Collecting metadata  
+- Downloading PDFs  
+- Preparing clean datasets  
 
----
-
-## 🎯 Current Milestone: Week 1–2
-
-**Goal:**  
-Automate research paper discovery and prepare a clean dataset for further analysis.
+The system is modular and scalable, allowing easy extension for PDF analysis, summarization, and review generation.
 
 ---
 
-## ✅ Features Implemented
+## ✨ Features
 
 - 🔍 Topic-based academic paper search  
 - 🌐 Integration with **Semantic Scholar API**  
-- 📄 Retrieval of paper metadata (title, authors, year, abstract)  
-- 📥 Automatic PDF download (when available)  
-- 🗂 Structured dataset generation in JSON format  
-- 📁 Clean and modular project structure  
+- 📄 Automatic retrieval of:
+  - Title
+  - Authors
+  - Publication year
+  - Abstract
+- 📥 PDF download (when available)
+- 🗂 Structured dataset creation in JSON format
+- 🧱 Clean and modular project architecture
 
 ---
 
-## 🧠 Workflow Implemented
+## 🔄 Workflow
 
 User Topic Input
 ↓
 Semantic Scholar API Search
 ↓
-Research Paper Metadata Collection
+Paper Metadata Collection
 ↓
 Top-N Paper Selection
 ↓
 PDF Download
 ↓
-Dataset Preparation
+Dataset Preparation (JSON)
 
 
 ---
 
-## 🧱 Project Structure
+## 📁 Project Structure
 
 AI-System-to-automatically-Review-and-Summarize-Research-Papers/
 │
 ├── data/
 │ ├── papers/ # Downloaded research PDFs
 │ ├── metadata/
-│ │ └── papers_metadata.json # Research paper metadata
+│ │ └── papers_metadata.json
 │ └── dataset.json # Final prepared dataset
 │
 ├── src/
 │ ├── init.py
-│ ├── config.py # API keys and settings
+│ ├── config.py # API keys and configuration
 │ ├── paper_search.py # Semantic Scholar search logic
 │ └── utils.py # Helper utility functions
 │
@@ -70,80 +76,60 @@ AI-System-to-automatically-Review-and-Summarize-Research-Papers/
 
 ## ⚙️ Technology Stack
 
-- **Language:** Python 3.x  
-- **API:** Semantic Scholar API  
-- **Libraries:**
-  - requests
-  - json
-  - pathlib
-  - tqdm
-  - python-dotenv (optional)
+**Language**
+- Python 3.x
+
+**API**
+- Semantic Scholar API
+
+**Libraries**
+- requests  
+- json  
+- pathlib  
+- tqdm  
+- python-dotenv (optional)
 
 ---
 
 ## 🔧 Setup Instructions
 
-### 1️⃣ Install Python 3.8+
+### 1️⃣ Install Python
 
-Check Python version:
+Ensure Python 3.8 or higher is installed:
 
+```bash
 python --version
-
-
----
-
-### 2️⃣ Clone the Repository
-
-git clone https://github.com/springboardmentor50641l/AI-System-to-automatically-Review-and-Summarize-Research-Papers.git
+2️⃣ Clone the Repository
+git clone https://github.com/your-username/AI-System-to-automatically-Review-and-Summarize-Research-Papers.git
 cd AI-System-to-automatically-Review-and-Summarize-Research-Papers
-
-
----
-
-### 3️⃣ Create Virtual Environment (Recommended)
-
+3️⃣ Create Virtual Environment (Recommended)
 python -m venv venv
+Activate:
 
+Windows
 
-Activate environment:
-
-**Windows**
 venv\Scripts\activate
+macOS / Linux
 
-
-**macOS / Linux**
 source venv/bin/activate
-
-
----
-
-### 4️⃣ Install Dependencies
-
+4️⃣ Install Dependencies
 pip install -r requirements.txt
-
-
----
-
-### 5️⃣ Configure API Key
-
-Edit the file:
+5️⃣ Configure API Key
+Edit:
 
 src/config.py
-
-
 Add your Semantic Scholar API key:
 
-```python
 SEMANTIC_SCHOLAR_API_KEY = "your_api_key_here"
-⚠️ Do not upload API keys to GitHub.
+⚠️ Never upload API keys to GitHub.
 
 ▶️ How to Run
 python src/paper_search.py
 📤 Generated Outputs
-File	Description
+File / Folder	Description
 papers_metadata.json	Metadata of collected papers
 dataset.json	Structured dataset for analysis
-/papers/	Downloaded research PDFs
+data/papers/	Downloaded research PDFs
 📊 Sample Dataset Format
 {
   "paper_id": "123456",
@@ -154,32 +140,18 @@ dataset.json	Structured dataset for analysis
   "pdf_url": "...",
   "local_pdf_path": "data/papers/ai_healthcare.pdf"
 }
-✅ Milestone 1 Achievements
-✔ Environment setup completed
-✔ Semantic Scholar API integrated
-✔ Automated research paper search
-✔ PDF download pipeline implemented
-✔ Dataset generation completed
-✔ Code structured for scalability
-
-🔜 Upcoming Milestone (Week 3–4)
+🔮 Future Enhancements
 PDF text extraction
 
-Section-wise content segmentation
+Section-wise segmentation
 
 Key finding identification
 
-Cross-paper comparison module
+Cross-paper comparison
 
-👩‍🏫 Internship Context
-This project is developed as part of the
-Infosys Springboard Internship Program
-under guided milestone-based evaluation.
+Automated summarization
+
+Review and draft generation
 
 📜 License
-For academic and educational use only.
-
-⭐ Milestone 1 successfully completed.
-
-
-
+This project is intended for educational and research purposes only.
