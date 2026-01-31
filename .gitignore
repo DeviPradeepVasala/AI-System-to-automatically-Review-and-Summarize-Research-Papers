@@ -1,86 +1,68 @@
-####################################
 # Python cache & compiled files
-####################################
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 
-####################################
 # Virtual environments
-####################################
 venv/
 env/
 .venv/
 ENV/
 
-####################################
+
 # Environment variables
-####################################
 .env
 .env.*
 *.env
 
-####################################
+
 # VS Code & IDE settings
-####################################
 .vscode/
 .idea/
 *.iml
 
-####################################
+
 # Jupyter Notebook checkpoints
-####################################
 .ipynb_checkpoints/
 
-####################################
+
 # OS generated files
-####################################
 .DS_Store
 Thumbs.db
 desktop.ini
 
-####################################
+
 # Logs
-####################################
 *.log
 logs/
 log/
 
-####################################
+
 # Temporary / runtime files
-####################################
 *.tmp
 *.temp
 *.swp
 *.bak
 
-####################################
 # Python packaging
-####################################
 build/
 dist/
 *.egg-info/
 .eggs/
 
-####################################
 # Gradio cache & temp
-####################################
 gradio_cached_examples/
 gradio_tmp/
 
-####################################
 # Model / ML artifacts (re-creatable)
-####################################
 *.pt
 *.pth
 *.ckpt
 *.h5
 *.onnx
 
-####################################
 # Downloaded research data (optional)
-####################################
 data/papers/*
 data/extracted_text/*
 data/analysis/*
@@ -94,42 +76,30 @@ data/drafts/*
 !data/reviews/.gitkeep
 !data/drafts/.gitkeep
 
-####################################
 # Dataset files (large / regeneratable)
-####################################
 data/dataset.json
 
-####################################
 # Test outputs
-####################################
 outputs/
 results/
 reports/
 
-####################################
 # Local execution files
-####################################
 launch.bat
 install_gradio_fixed.bat
 
-####################################
 # Secrets / API keys
-####################################
 *.key
 *.pem
 *.crt
 *.secret
 credentials.json
 
-####################################
 # GitHub Copilot / AI tools
-####################################
 .blackbox/
 .amazonq/
 
-####################################
 # Misc
-####################################
 *.zip
 *.tar
 *.gz
