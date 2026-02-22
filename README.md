@@ -4,27 +4,6 @@
 A production-ready, graph-based AI pipeline that automatically searches, downloads, analyzes, and synthesizes academic research papers into a structured literature review — powered by LangGraph, Gemini (or GPT), Semantic Scholar, and PyMuPDF.
 
 ---
-
-## Project Structure
-
-```
-research_review/
-├── app.py                  ← Gradio web UI (entry point)
-├── pipeline.py             ← LangGraph graph definition & run helpers
-├── state.py                ← PaperState TypedDict (shared state schema)
-├── papersearch.py          ← Milestone 1: Search & download nodes
-├── text_extraction.py      ← Milestone 2: Extract, normalize, section nodes
-├── paper_analyzer.py       ← Milestone 3: Key findings & cross-compare nodes
-├── draft_generator.py      ← Milestone 3-4: Writing, critique, revision nodes
-├── utils/
-│   ├── logger.py           ← Structured logger
-│   └── helpers.py          ← JSON parsing, text helpers, APA formatter
-├── downloads/              ← PDFs downloaded by the pipeline
-├── requirements.txt
-├── .env.example
-└── setup.sh
-```
-
 ---
 
 ## Quick Start
