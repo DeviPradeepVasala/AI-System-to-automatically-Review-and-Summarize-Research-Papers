@@ -1,0 +1,41 @@
+{
+  "pdf_path": "C:\\Users\\hp\\AI-System-to-automatically-Review-and-Summarize-Research-Papers\\data\\papers\\Review of deep learning_ concepts, CNN architectures, challenges, applications, future directions.pdf",
+  "pdf_name": "Review of deep learning_ concepts, CNN architectures, challenges, applications, future directions.pdf",
+  "file_hash": "5db85404be4227131e3125da4353cd219acc22b88c9c592b156fb3e0c640967b",
+  "metadata": {
+    "title": "Review of deep learning: concepts, CNN architectures, challenges, applications, future directions",
+    "author": "Laith Alzubaidi ",
+    "subject": "Journal of Big Data, https://doi.org/10.1186/s40537-021-00444-8",
+    "keywords": "Deep learning,Machine learning,Convolution neural network (CNN),Deep neural network architectures,Deep learning applications,Image classification,Transfer learning,Medical image analysis,Supervised learning,FPGA,GPU",
+    "creator": "Springer",
+    "producer": "Acrobat Distiller 10.1.8 (Windows); modified using iText® 5.3.5 ©2000-2012 1T3XT BVBA (SPRINGER SBM; licensed version)",
+    "creation_date": "D:20210327160518+05'30'",
+    "modification_date": "D:20210331115429+02'00'"
+  },
+  "sections": {
+    "abstract": "",
+    "introduction": "",
+    "related_work": "",
+    "methodology": "",
+    "experiments": "",
+    "results": "",
+    "discussion": "",
+    "conclusion": "",
+    "references": ""
+  },
+  "insights": {
+    "key_findings": [
+      "Analysis temporarily unavailable - API issue"
+    ],
+    "contributions": [],
+    "limitations": [],
+    "future_work": []
+  },
+  "analysis_status": "success",
+  "stats": {
+    "total_sections": 0,
+    "key_findings_count": 1,
+    "text_length": 235158,
+    "analysis_timestamp": "2026-02-20 17:52:56"
+  }
+}

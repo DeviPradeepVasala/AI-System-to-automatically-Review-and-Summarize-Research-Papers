@@ -1,0 +1,41 @@
+{
+  "pdf_path": "C:\\Users\\hp\\AI-System-to-automatically-Review-and-Summarize-Research-Papers\\data\\papers\\Mixed precision algorithms in numerical linear algebra.pdf",
+  "pdf_name": "Mixed precision algorithms in numerical linear algebra.pdf",
+  "file_hash": "37f321bf8375f88ca959273bb79dad3b975959bec339b13a8da58a0151250eb8",
+  "metadata": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref package",
+    "producer": "pdfTeX-1.40.18",
+    "creation_date": "D:20220408094217+01'00'",
+    "modification_date": "D:20220609082156+00'00'"
+  },
+  "sections": {
+    "abstract": "",
+    "introduction": "",
+    "related_work": "",
+    "methodology": "",
+    "experiments": "",
+    "results": "",
+    "discussion": "",
+    "conclusion": "",
+    "references": ""
+  },
+  "insights": {
+    "key_findings": [
+      "Analysis temporarily unavailable - API issue"
+    ],
+    "contributions": [],
+    "limitations": [],
+    "future_work": []
+  },
+  "analysis_status": "success",
+  "stats": {
+    "total_sections": 0,
+    "key_findings_count": 1,
+    "text_length": 191398,
+    "analysis_timestamp": "2026-02-20 17:51:03"
+  }
+}

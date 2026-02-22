@@ -1,0 +1,46 @@
+{
+  "topic": "linear algebra",
+  "timestamp": "2026-02-20 17:49:40",
+  "total_papers": 2,
+  "papers": [
+    {
+      "title": "Randomized Numerical Linear Algebra : A Perspective on the Field With an Eye to Software",
+      "abstract": "Randomized numerical linear algebra - RandNLA, for short - concerns the use of randomization as a resource to develop improved algorithms for large-scale linear algebra computations. The origins of contemporary RandNLA lay in theoretical computer science, where it blossomed from a simple idea: randomization provides an avenue for computing approximate solutions to linear algebra problems more efficiently than deterministic algorithms. This idea proved fruitful in the development of scalable algorithms for machine learning and statistical data analysis applications. However, RandNLA's true potential only came into focus upon integration with the fields of numerical analysis and\"classical\"numerical linear algebra. Through the efforts of many individuals, randomized algorithms have been developed that provide full control over the accuracy of their solutions and that can be every bit as reliable as algorithms that might be found in libraries such as LAPACK. Recent years have even seen the incorporation of certain RandNLA methods into MATLAB, the NAG Library, NVIDIA's cuSOLVER, and SciKit-Learn. For all its success, we believe that RandNLA has yet to realize its full potential. In particular, we believe the scientific community stands to benefit significantly from suitably defined\"RandBLAS\"and\"RandLAPACK\"libraries, to serve as standards conceptually analogous to BLAS and LAPACK. This 200-page monograph represents a step toward defining such standards. In it, we cover topics spanning basic sketching, least squares and optimization, low-rank approximation, full matrix decompositions, leverage score sampling, and sketching data with tensor product structures (among others). Much of the provided pseudo-code has been tested via publicly available MATLAB and Python implementations.",
+      "pdf_url": "http://arxiv.org/pdf/2302.11474",
+      "url": "https://www.semanticscholar.org/paper/886db5a1baf1ae457b1546831290ef5c9662caa3",
+      "year": 2023,
+      "authors": [
+        "Riley Murray",
+        "J. Demmel",
+        "Michael W. Mahoney",
+        "N. Benjamin Erichson",
+        "Maksim Melnichenko",
+        "Osman Asif Malik",
+        "L. Grigori",
+        "P. Luszczek",
+        "Michal Derezinski",
+        "Miles E. Lopes",
+        "Tianyu Liang",
+        "Hengrui Luo",
+        "J. Dongarra"
+      ],
+      "venue": "arXiv.org",
+      "citation_count": 101,
+      "local_path": "C:\\Users\\hp\\AI-System-to-automatically-Review-and-Summarize-Research-Papers\\data\\papers\\Randomized Numerical Linear Algebra _ A Perspective on the Field With an Eye to Software.pdf"
+    },
+    {
+      "title": "Mixed precision algorithms in numerical linear algebra",
+      "abstract": "Today’s floating-point arithmetic landscape is broader than ever. While scientific computing has traditionally used single precision and double precision floating-point arithmetics, half precision is increasingly available in hardware and quadruple precision is supported in software. Lower precision arithmetic brings increased speed and reduced communication and energy costs, but it produces results of correspondingly low accuracy. Higher precisions are more expensive but can potentially provide great benefits, even if used sparingly. A variety of mixed precision algorithms have been developed that combine the superior performance of lower precisions with the better accuracy of higher precisions. Some of these algorithms aim to provide results of the same quality as algorithms running in a fixed precision but at a much lower cost; others use a little higher precision to improve the accuracy of an algorithm. This survey treats a broad range of mixed precision algorithms in numerical linear algebra, both direct and iterative, for problems including matrix multiplication, matrix factorization, linear systems, least squares, eigenvalue decomposition and singular value decomposition. We identify key algorithmic ideas, such as iterative refinement, adapting the precision to the data, and exploiting mixed precision block fused multiply–add operations. We also describe the possible performance benefits and explain what is known about the numerical stability of the algorithms. This survey should be useful to a wide community of researchers and practitioners who wish to develop or benefit from mixed precision numerical linear algebra algorithms.",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/43CA701BA29251B5790C653E66F46197/S0962492922000022a.pdf/div-class-title-mixed-precision-algorithms-in-numerical-linear-algebra-div.pdf",
+      "url": "https://www.semanticscholar.org/paper/d97b9c471b8ad77d04f313bad92b8d7e75ce22ee",
+      "year": 2022,
+      "authors": [
+        "N. Higham",
+        "Théo Mary"
+      ],
+      "venue": "Acta Numerica",
+      "citation_count": 124,
+      "local_path": "C:\\Users\\hp\\AI-System-to-automatically-Review-and-Summarize-Research-Papers\\data\\papers\\Mixed precision algorithms in numerical linear algebra.pdf"
+    }
+  ]
+}

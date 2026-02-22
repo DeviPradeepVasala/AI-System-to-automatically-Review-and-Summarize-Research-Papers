@@ -1,0 +1,41 @@
+{
+  "pdf_path": "C:\\Users\\hp\\AI-System-to-automatically-Review-and-Summarize-Research-Papers\\data\\papers\\Randomized Numerical Linear Algebra _ A Perspective on the Field With an Eye to Software.pdf",
+  "pdf_name": "Randomized Numerical Linear Algebra _ A Perspective on the Field With an Eye to Software.pdf",
+  "file_hash": "15189e641c37183c9accea8aa139391510db58c693fa8ea1904ceb950af4ed04",
+  "metadata": {
+    "title": "",
+    "author": "",
+    "subject": "",
+    "keywords": "",
+    "creator": "LaTeX with hyperref",
+    "producer": "pdfTeX-1.40.21",
+    "creation_date": "D:20230414004406Z",
+    "modification_date": "D:20230414004406Z"
+  },
+  "sections": {
+    "abstract": "",
+    "introduction": "",
+    "related_work": "",
+    "methodology": "",
+    "experiments": "",
+    "results": "",
+    "discussion": "",
+    "conclusion": "",
+    "references": ""
+  },
+  "insights": {
+    "key_findings": [
+      "Analysis temporarily unavailable - API issue"
+    ],
+    "contributions": [],
+    "limitations": [],
+    "future_work": []
+  },
+  "analysis_status": "success",
+  "stats": {
+    "total_sections": 0,
+    "key_findings_count": 1,
+    "text_length": 525341,
+    "analysis_timestamp": "2026-02-20 17:52:18"
+  }
+}
